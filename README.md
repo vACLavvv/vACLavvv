@@ -1,81 +1,139 @@
-# Hi, I'm Daniil 👋
+# Hi there, I'm Daniil! 👋
 
-### DevOps Engineer | Linux • Kubernetes • CI/CD • Infrastructure Automation
+### DevOps Engineer | Linux • Kubernetes • Docker • CI/CD • Automation
 
-I'm a DevOps Engineer focused on infrastructure automation, container orchestration, CI/CD pipelines, and reliable application delivery.
+I'm a DevOps Engineer with hands-on experience in Linux infrastructure, container orchestration, CI/CD automation, and application deployment.
 
-I have hands-on experience with Linux infrastructure, Kubernetes cluster deployment, CI/CD workflows, and containerized applications.
+My focus is on building reliable, maintainable, and reproducible infrastructure, automating routine operations, and improving software delivery processes.
 
-I enjoy understanding how systems work under the hood, troubleshooting infrastructure issues, and making deployments more predictable and reproducible.
+I have experience working with infrastructure in commercial production environments, as well as building and troubleshooting Kubernetes clusters.
 
 ## 🛠️ Tech Stack
 
-**Operating Systems & Infrastructure**
+**Operating Systems & Scripting**
+
 - Linux (RedOS)
-- Bash
-- Git
-- Networking & Troubleshooting
+- Bash / Shell Scripting
+- Python
+- Linux Administration
+- Systemd, SSH, Cron
+- Troubleshooting & Log Analysis
 
 **Containers & Orchestration**
+
 - Docker
+- Docker Compose
 - Kubernetes
 - kubeadm
 - etcd
-- Kubernetes API Load Balancing
+- Container Networking
+- Kubernetes Cluster Administration
 
-**CI/CD & Deployment**
-- GitLab CI/CD
+**CI/CD & Version Control**
+
 - Git
-- GitLab & GitHub
+- GitLab
+- GitHub
+- GitLab CI/CD
+- CI/CD Pipeline Configuration
+- Deployment Automation
 - Blue-Green Deployment
+
+**Configuration Management & Automation**
+
+- Ansible
+- Ansible Playbooks
+- Inventory Management
+- Infrastructure Configuration
+- Task Automation
+
+**Networking & Infrastructure**
+
+- TCP/IP
+- DNS
+- HTTP / HTTPS
+- SSH
+- Load Balancing
+- Reverse Proxy Concepts
+- Linux Networking Troubleshooting
 
 ## ☸️ Kubernetes Experience
 
-Hands-on experience deploying a highly available Kubernetes cluster using `kubeadm`.
+Deployed a highly available Kubernetes cluster using `kubeadm`.
 
-**Cluster architecture:**
-- 3 Control Plane nodes
-- 2 Worker nodes
-- External etcd cluster
+**Architecture:**
+
+- 3 Control Plane Nodes
+- 2 Worker Nodes
+- External etcd Cluster
 - Kubernetes API Load Balancer
 
-Focused on understanding Kubernetes architecture, control plane components, cluster networking, and infrastructure troubleshooting.
+**Key areas:**
+
+- Cluster bootstrap and configuration
+- Kubernetes Control Plane architecture
+- Cluster networking and API accessibility
+- Troubleshooting Kubernetes components
+- Understanding high availability and fault tolerance
+
+## 🐍 Python & Automation
+
+Using Python and Bash to develop automation skills and simplify infrastructure operations.
+
+Areas of focus:
+
+- Scripting and routine task automation
+- File and configuration processing
+- Working with command-line tools
+- Infrastructure-related scripting
+- Troubleshooting and operational tooling
 
 ## 🚀 Featured Projects
 
 ### CI/CD Pipelines
-[View Repository](https://github.com/vACLavvv/cicdpipelines)
+[Explore Repository](https://github.com/vACLavvv/cicdpipelines)
 
-Practical CI/CD exercises and pipeline configurations.
+CI/CD pipeline configuration and automated delivery practice.
 
 ### DevOps Engineer Basics
-[View Repository](https://github.com/vACLavvv/devops-engineer-basics)
+[Explore Repository](https://github.com/vACLavvv/devops-engineer-basics)
 
-Linux, Git, and foundational DevOps engineering exercises.
+Practical exercises covering DevOps fundamentals and infrastructure-related tasks.
 
 ### React Application Deployment
-[View Repository](https://github.com/vACLavvv/react-app-deploy)
+[Explore Repository](https://github.com/vACLavvv/react-app-deploy)
 
-Application deployment practice with a React-based project.
+Application deployment workflows and delivery practice.
 
 ### Static Blue-Green Deployment
-[View Repository](https://github.com/vACLavvv/static-bluegreen-deploy)
+[Explore Repository](https://github.com/vACLavvv/static-bluegreen-deploy)
 
-Blue-Green deployment practice for static applications.
+Blue-Green deployment strategy implementation and practice.
 
 ### Test React Application
-[View Repository](https://github.com/vACLavvv/test-react-app)
+[Explore Repository](https://github.com/vACLavvv/test-react-app)
 
-React application used for deployment and CI/CD practice.
+Test application for deployment and automation exercises.
 
-## 🎯 Current Focus
+## 📚 Currently Exploring
 
-- Improving Kubernetes administration and troubleshooting skills
-- Building reproducible infrastructure
-- Developing reliable CI/CD workflows
-- Deepening Linux and networking expertise
+- Advanced Kubernetes administration
+- Infrastructure as Code with Terraform
+- Helm and Kubernetes application packaging
+- Monitoring with Prometheus and Grafana
+- Python for DevOps automation
+- Infrastructure reliability and observability
 
-## 📫 Connect
+## 🎯 Engineering Interests
+
+- Infrastructure Automation
+- Container Orchestration
+- CI/CD Engineering
+- Linux Systems Administration
+- High Availability
+- Troubleshooting & Reliability
+
+## 📫 Connect With Me
 
 - **Telegram:** [tic](https://t.me/danisssimooooooo)
 - **ВКонтакте:** [tac](https://vk.ru/danissimooooo)
