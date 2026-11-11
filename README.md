@@ -1,6 +1,6 @@
 # Hi there, I'm Daniil! 👋
 
-### DevOps Engineer | Linux • Kubernetes • Docker • CI/CD • Automation
+### DevOps Engineer | Linux • Kubernetes • Terraform • Docker • GitLab CI/CD • Ansible • Yandex Cloud
 
 I'm a DevOps Engineer with hands-on experience in Linux infrastructure, container orchestration, CI/CD automation, and application deployment.
 
@@ -133,7 +133,7 @@ Test application for deployment and automation exercises.
 - High Availability
 - Troubleshooting & Reliability
 
-## 📫 Connect With Me
+## 📫 Let's Connect
 
 - **Telegram:** [tic](https://t.me/danisssimooooooo)
 - **ВКонтакте:** [tac](https://vk.ru/danissimooooo)
