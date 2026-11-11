@@ -77,8 +77,9 @@ React application used for deployment and CI/CD practice.
 
 ## 📫 Connect
 
-- **GitHub:** [vACLavvv](https://github.com/vACLavvv)
-
+- **Telegram:** [danisssimooooooo](https://t.me/danisssimooooooo)
+- **Яндекс.Почта** [antonyuk](antonyuk@vacdev.ru)
+- **ВКонтакте** [danissimooooo](https://vk.ru/danissimooooo)
 ---
 
 *Infrastructure should be reliable, reproducible, and easy to operate.*
