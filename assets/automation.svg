@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 350" width="390" height="350" role="img" aria-label="Automation animated technical card">
+  <title>Automation animated technical card</title>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121C2D"/><stop offset="1" stop-color="#0B101B"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#7CCBFF" stop-opacity=".16"/><stop offset="1" stop-color="#7CCBFF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" patternUnits="userSpaceOnUse" width="25" height="25"><path d="M25 0H0V25" fill="none" stroke="#9CB0CB" stroke-opacity=".045" stroke-width="1"/></pattern>
+    <filter id="shadow"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+  <style>
+    .blink { animation: blinking 1.15s steps(1, end) infinite; }
+    .pulse { animation: pulse 2.9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+    .pulse-2 { animation: pulse 2.9s ease-in-out -1.35s infinite; transform-box: fill-box; transform-origin: center; }
+    .dash { stroke-dasharray: 7 8; animation: dash 2.2s linear infinite; }
+    .dash-slow { stroke-dasharray: 4 9; animation: dash 4.5s linear infinite; }
+    .scan { animation: scan 4s ease-in-out infinite; }
+    .rise { animation: rise 5s ease-in-out infinite; }
+    .barwave { animation: grow 3.8s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: bottom; }
+    .barwave2 { animation: grow 3.8s ease-in-out -1.1s infinite alternate; transform-box: fill-box; transform-origin: bottom; }
+    .barwave3 { animation: grow 3.8s ease-in-out -2.1s infinite alternate; transform-box: fill-box; transform-origin: bottom; }
+    .reveal { animation: reveal 3.6s steps(22, end) infinite alternate; }
+    .dashdraw { stroke-dasharray: 650; stroke-dashoffset: 650; animation: draw 5s ease-in-out infinite alternate; }
+    .fade { animation: fade 4s ease-in-out infinite alternate; }
+    @keyframes blinking { 50% { opacity: 0; } }
+    @keyframes dash { to { stroke-dashoffset: -60; } }
+    @keyframes pulse { 0%, 100% { opacity: .45; transform: scale(.94); } 50% { opacity: 1; transform: scale(1.1); } }
+    @keyframes rise { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-7px); } }
+    @keyframes scan { 0%, 100% { transform: translateX(0); opacity: .2; } 50% { transform: translateX(22px); opacity: .8; } }
+    @keyframes grow { 0% { transform: scaleY(.65); } 100% { transform: scaleY(1); } }
+    @keyframes reveal { 0% { width: 0px; } 55%, 100% { width: 360px; } }
+    @keyframes draw { 0% { stroke-dashoffset: 650; } 60%, 100% { stroke-dashoffset: 0; } }
+    @keyframes fade { 0% {opacity: .3;} 100% {opacity: 1;} }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation: none !important; }
+      .reveal { width: 360px !important; }
+      .dashdraw { stroke-dashoffset: 0 !important; }
+    }
+</style>
+  <rect x="1" y="1" width="388" height="348" rx="17" fill="url(#base)" stroke="#29374C" stroke-width="1.5"/>
+  <rect x="1" y="1" width="388" height="348" rx="17" fill="url(#grid)"/>
+<circle cx="23" cy="26" r="4" fill="#7CCBFF" class="pulse"/><text x="39" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#7CCBFF" >02 / CONFIGURATION</text><text x="362" y="31" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="600" fill="#91A3BB" text-anchor="end">ANSIBLE</text><path d="M20 49H370" stroke="#29374C" stroke-width="1"/><text x="23" y="85" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="23" font-weight="730" fill="#E7F1FF" >Automation</text><text x="23" y="109" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="13" font-weight="500" fill="#91A3BB" >Linux operations · Bash · Ansible</text><rect x="22" y="129" width="346" height="151" rx="10" fill="#0B1721" stroke="#29374C"/><text x="40" y="160" font-family="'JetBrains Mono', 'SFMono-Regular', Menlo, Consolas, monospace" font-size="11" font-weight="650" fill="#91A3BB" >PROVISIONING IMPACT</text><text x="40" y="191" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="21" font-weight="720" fill="#E7F1FF" >30 min</text><text x="185" y="190" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="24" font-weight="700" fill="#7CCBFF" >→</text><text x="232" y="191" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="21" font-weight="720" fill="#73E1BD" >3–5 min</text><text x="40" y="211" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="11" font-weight="500" fill="#91A3BB" >1C installation time / workstation</text><rect x="40" y="231" width="296" height="9" rx="5" fill="#25354A" /><rect x="40" y="231" width="292" height="9" rx="5" fill="#B4A1FF" opacity=".4"/><rect x="40" y="250" width="48" height="9" rx="5" fill="#73E1BD" class="barwave"/><text x="23" y="309" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="31" font-weight="760" fill="#7CCBFF" >~500</text><text x="130" y="306" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="12" font-weight="520" fill="#91A3BB" >Linux hosts / scope of automation</text><text x="23" y="332" font-family="Inter, system-ui, -apple-system, Arial, sans-serif" font-size="12" font-weight="510" fill="#E7F1FF" >Deployment · configuration · rollout</text></svg>
