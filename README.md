@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Animated terminal banner: Daniil Antoniuk, DevOps and Infrastructure Engineer, with Kubernetes cluster blueprint" />
+  <img src="./assets/hero.svg" width="100%" alt="Animated terminal banner: Daniil Antonyuk, DevOps and Infrastructure Engineer, with Kubernetes cluster blueprint" />
 </div>
 
 <br />
